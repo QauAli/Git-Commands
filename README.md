@@ -70,3 +70,20 @@ _A list of my commonly used Git commands_
 | `git log --summary` | View changes (detailed) |
 | `git diff [source branch] [target branch]` | Preview changes before merging |
 
+### Rest and config head
+
+| Command | Description |
+| ------- | ----------- |
+| `git reset [commit]` | undoes all the commits after the specified commit and preserves the changes locally. |
+| `git reset -–hard [commit]` | discards all history and goes back to the specified commit. |
+| `git reset -–hard [commit]` | discards all history and goes back to the specified commit. |
+
+### show
+
+| Command | Description |
+| ------- | ----------- |
+| `git show [commit]` | shows the metadata and content changes of the specified commit. (press q to terminate command) |
+| `git tag [commitID]` | This command is used to give tags to the specified commit. |
+
+  
+
